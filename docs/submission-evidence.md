@@ -26,4 +26,4 @@ Reviewed the implementation diff after the changes: the order list route and pay
 
 ## Tests
 
-The API tests cover threshold inclusion, exclusion of below-threshold/null/non-active records through returned behavior, descending delay order, the unchanged existing list, and existing unknown-order 404 behavior. Test command and outcome are recorded after execution.
+`py -m pytest -q` — 9 passed. The API tests cover threshold inclusion, exclusion of below-threshold/null/non-active records through returned behavior, descending delay order, the unchanged existing list, and existing unknown-order 404 behavior.
